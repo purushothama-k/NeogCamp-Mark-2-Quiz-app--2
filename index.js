@@ -1,5 +1,5 @@
 var readlineSync = require('readline-sync');
-const userInput = readlineSync.question("Hello! what's your name? ");
+const userInput = readlineSync.question("Hey, what's your name? ");
 console.log(`Welcome! ${userInput}`)
 console.log(`Let's play a quiz on general topics!`)
 let score = 0;
