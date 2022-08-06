@@ -86,8 +86,12 @@ for (let i = 0; i < questionBook.length; i++) {
 
 }
 
-if (score > 2) {
+if (score > 2 && score < 4) {
   console.log(`💯🥂Well played ${userInput}, your final score is: ${score}`);
+} else if (score === 5) {
+
+  console.log(`🎊Congrats! ${userInput}, all your answers are correct. Here's your score : ${score}`)
+
 } else {
   console.log(`Thanks for playing ${userInput}, your final score is: ${score}`);
 }
