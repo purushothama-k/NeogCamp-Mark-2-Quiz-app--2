@@ -38,7 +38,7 @@ const questionBook = [
         b.2001
         c.2009
       `,
-    answer: "1997"
+    answer: "a"
   },
   {
     question: `
@@ -47,7 +47,7 @@ const questionBook = [
         b.Kangaroo
         c.Blue whale
       `,
-    answer: "Blue whale"
+    answer: "c"
   },
   {
     question: `
@@ -56,7 +56,7 @@ const questionBook = [
         b.4
         c.2
       `,
-    answer: "4"
+    answer: "b"
   },
   {
     question: `
@@ -65,7 +65,7 @@ const questionBook = [
         b.Jupiter
         c.Moon
       `,
-    answer: "Mercury"
+    answer: "a"
   },
   {
     question: `
@@ -74,7 +74,7 @@ const questionBook = [
         b.134
         c.118
       `,
-    answer: "118"
+    answer: "c"
   }
 ]
 
@@ -87,10 +87,10 @@ for (let i = 0; i < questionBook.length; i++) {
 }
 
 if (score > 2 && score < 4) {
-  console.log(`💯🥂Well played ${userInput}, your final score is: ${score}`);
+  console.log(`🥂Well played ${userInput}, your final score is: ${score}`);
 } else if (score === 5) {
 
-  console.log(`🎊Congrats! ${userInput}, all your answers are correct. Here's your score : ${score}`)
+  console.log(`🎊 Congrats! ${userInput}, all your answers are correct. Here's your score : ${score} 🎊`)
 
 } else {
   console.log(`Thanks for playing ${userInput}, your final score is: ${score}`);
